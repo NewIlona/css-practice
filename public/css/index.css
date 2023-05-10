@@ -1,7 +1,35 @@
+:root {
+  background: purple;
+}
+
 html {
   max-width: 720px;
+
+  background:blue;
 }
 
 body {
   background: #fff;
+}
+
+* {
+  color: red;
+}
+
+h1 {
+  color: green;
+}
+
+.box {
+  background: #dedada
+}
+
+#user {
+  color: blue;
+}
+
+h1,
+h2,
+button {
+  color:green;
 }
