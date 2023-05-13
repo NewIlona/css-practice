@@ -27,7 +27,7 @@
 }
 .nav_link {
    color: #342a40;
-   font-sixe: 16px;
+   font-size:  16px;
    text-decoration: none;
 }
 .nav_link:hover {
@@ -58,7 +58,7 @@
   font-size: 14px;
   color:#6c757d;
 
-  display:bock;
+  display: block;
 
   margin-top:12px;
 }
