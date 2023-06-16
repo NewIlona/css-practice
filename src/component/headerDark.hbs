@@ -1,0 +1,26 @@
+{{#with header}}
+
+    <div class="logo_brandName">
+         <span class="badge text-bg-primary">{{brandName}}</span>
+    </div>
+    
+    <div class="userOnline">
+    <div class="">User online: {{userOnline}}</div>
+    </div>
+    <div class="nav {{#if isVertical}}nav_vertical{{else}}nav_inline{{/if}}">
+
+
+
+       {{#with ad}}
+       
+             <a class="ad">{{texte}} :{{url}}</a>
+    
+       {{/with}}  
+        
+         {{#each links}}
+            
+             <a href="{{url}}" class="nav_link">{{text}}</a>
+         {{/each}}
+         
+</div>
+{{/with}}
